@@ -29,4 +29,8 @@ export const HEROES: Hero[] = [{
   id: 7,
   name: 'Light Mage',
   element: 'Light'
+},{
+  id: 8,
+  name : 'Poison Mage',
+  element: 'Poison'
 }]

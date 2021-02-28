@@ -1,43 +1,73 @@
  /* HeroesComponent's private CSS styles */
-.heroes {
-    margin: 0 0 2em 0;
-    list-style-type: none;
-    padding: 0;
-    width: 15em;
-  }
-  .heroes li {
-    cursor: pointer;
-    position: relative;
-    left: 0;
-    background-color: #EEE;
-    margin: .5em;
-    padding: .3em 0;
-    height: 1.6em;
-    border-radius: 4px;
-  }
-  .heroes li:hover {
-    color: #2c3a41;
-    background-color: #e6e6e6;
-    left: .1em;
-  }
-  .heroes li.selected {
-    background-color: black;
-    color: white;
-  }
-  .heroes li.selected:hover {
-    background-color: #505050;
-    color: white;
-  }
-  .heroes li.selected:active {
-    background-color: black;
-    color: white;
-  }
-  .heroes .badge {
+ .heroes {
+   margin: 0 0 2em 0;
+   list-style-type: none;
+   padding: 0;
+   width: 15em;
+ }
+
+ .heroes li {
+   cursor: pointer;
+   position: relative;
+   left: 0;
+   background-color: #EEE;
+   margin: .5em;
+   padding: .3em 0;
+   height: 1.6em;
+   border-radius: 4px;
+ }
+
+ .heroes li:hover {
+   color: #2c3a41;
+   background-color: #e6e6e6;
+   left: .1em;
+ }
+
+ .heroes li.selected {
+   background-color: black;
+   color: white;
+ }
+
+ .heroes li.selected:hover {
+   background-color: #505050;
+   color: white;
+ }
+
+ .heroes li.selected:active {
+   background-color: black;
+   color: white;
+ }
+
+ .heroes .badge {
+   display: inline-block;
+   font-size: small;
+   color: white;
+   padding: 0.8em 0.7em 0 0.7em;
+   background-color: #405061;
+   line-height: 1em;
+   position: relative;
+   left: -1px;
+   top: -4px;
+   height: 1.8em;
+   margin-right: .8em;
+   border-radius: 4px 0 0 4px;
+ }
+
+ /* ID 1 WATER MAGE */
+ .water{
+    background-color: #3599eb;
+    color: #2A2A2E;
+ }
+  .heroes .water:hover {
+   background-color: #256da8;
+   color: #2A2A2E;
+ }
+ .water .badge{
     display: inline-block;
     font-size: small;
-    color: white;
-    padding: 0.8em 0.7em 0 0.7em;
-    background-color:#405061;
+    color: #2A2A2E;
+    padding: a0.8em 0.7em 0 0.7em;
+    background-color: #497fb9;
     line-height: 1em;
     position: relative;
     left: -1px;
@@ -45,8 +75,175 @@
     height: 1.8em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
-  }
-  
-  input {
-    padding: .5rem;
-  }
+ }
+
+ /* ID 2  FIRE MAGE*/
+ .fire{
+    background-color: #cf000f;
+    color: #2A2A2E;
+ }
+ .heroes .fire:hover {
+   background-color: #7c060d;
+   color: white;
+ }
+ .fire .badge{
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: a0.8em 0.7em 0 0.7em;
+    background-color: #a7211d;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+ }
+
+ /* ID 3 AIR MAGE */
+ .air{
+    background-color: #3599eb;
+    color: #2A2A2E;
+ }
+ .heroes .air:hover {
+   background-color: #209450;
+   color: #2A2A2E;
+ }
+ .air .badge{
+    display: inline-block;
+    font-size: small;
+    color: #2A2A2E;
+    padding: a0.8em 0.7em 0 0.7em;
+    background-color:#2ecc71;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+ }
+
+ /* ID 4 EARTH MAGE*/
+ .earth{
+    background-color: #A52A2A;
+    color: #2A2A2E;
+ }
+ .heroes .earth:hover {
+   background-color: #aa895e;
+   color: #2A2A2E;
+ }
+ .earth .badge{
+    display: inline-block;
+    font-size: small;
+    color: #2A2A2E;
+    padding: a0.8em 0.7em 0 0.7em;
+    background-color:#dba55f;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+ }
+
+ /* ID 5 THUNDER MAGE */
+ .thunder{
+    background-color: #3599eb;
+    color: #2A2A2E;
+ }
+ .heroes .thunder:hover {
+   background-color: #b3a815;
+   color: #2A2A2E;
+ }
+ .thunder .badge{
+    display: inline-block;
+    font-size: small;
+    color: #2A2A2E;
+    padding: a0.8em 0.7em 0 0.7em;
+    background-color: #f5e51b;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+ }
+
+ /* ID 6 SHADOW MAGE */
+ .shadow{
+    background-color: #3599eb;
+    color: #2A2A2E;
+ }
+ .heroes .shadow:hover {
+   background-color: #2A2A2E;
+   color: white;
+ }
+ .shadow .badge{
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: a0.8em 0.7em 0 0.7em;
+    background-color: #39393f;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+ }
+
+ /* ID 7 LIGHT MAGE*/
+ .light{
+    background-color: #3599eb;
+    color: #2A2A2E;
+ }
+ .heroes .light:hover {
+   background-color: #9c9c9c;
+   color: #2A2A2E;
+ }
+ .light .badge{
+    display: inline-block;
+    font-size: small;
+    color: #2A2A2E;
+    padding: a0.8em 0.7em 0 0.7em;
+    background-color: rgb(209, 209, 209);
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 2px black;
+ }
+
+  /* ID 8 POISON MAGE*/
+  .poison{
+    background-color: #3599eb;
+    color: #2A2A2E;
+ }
+ .heroes .poison:hover {
+   background-color: #7f47ce;
+   color: #2A2A2E;
+ }
+ .poison .badge{
+    display: inline-block;
+    font-size: small;
+    color: #2A2A2E;
+    padding: a0.8em 0.7em 0 0.7em;
+    background-color: #9f5afd;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 2px black;
+ }
+ input {
+   padding: .5rem;
+ }
